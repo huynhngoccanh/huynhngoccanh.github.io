@@ -1,0 +1,143 @@
+body {
+	position:relative;
+    font-family: Verdane, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+	color: #cccccc;
+	width: 1355px;
+	margin: 0px;
+}
+.bai2 {
+	width: 1355px;
+}
+p{margin: 0px;}
+hr{
+	margin: 0px;
+	size: 1px;
+}
+.header {
+	background-color: #2D2F35;
+	opacity:0.95;
+}
+.space{
+	background-color: #2D2F35;
+	height: 1px;
+	opacity:0.75;
+}
+.our_product{
+	position: relative;
+	background: url(../img/bg_home_intro.gif) repeat-x;
+	width: 1355px;
+	height: 300px;
+	
+	
+}
+.our_product_purport {
+	width: 400px;
+	text-align: left;
+	height: 280px;
+	margin-left: 130px;
+}
+.our_product > img {
+	position: absolute;
+	right: 2px;
+}
+.our_product_purport > p:first-child {
+	font-size: 27px;
+	margin-bottom: 30px;
+	color: yellow;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+}
+.our_product_purport > p:last-child {line-height:14px;}
+.slide_image {
+	background-color: #2D2F35;
+	height: 145px;
+	position: relative;
+}
+/*
+.slide_image img {
+	margin-top: 28px;
+	margin-right: 15px;
+}
+.slide_image img:first-child {margin-left: 176px;} */
+.image {
+	
+	width: 220px;
+	height:100px;
+	float: left;
+	position:relative;
+	margin-top: 28px;
+	margin-right: 15px;
+	
+}
+.image:first-child {margin-left: 176px;}
+.image img:last-child {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+.content_behind{
+	height:382px;
+	position:relative;
+	background-color: #2D2F35;
+}
+.content_behind p{font-size:13px;}
+.content_behind img:first-child {
+	top:220px;
+	left:420px;
+	position: absolute;
+
+}
+.marketing {
+	top:2px;
+	right:390px;
+	position: absolute;
+	
+	
+}
+.content_left {
+	width: 400px;
+	margin-left: 130px;
+	z-index: 10;
+	position: relative;
+	text-align: justify;
+	float:left;
+}
+.content_left p:first-child {
+	color: yellow;
+	padding-top: 5px;
+	font-size: 20px;
+	word-spacing: 3px;	
+	overflow: auto;
+}
+.content_right {
+	float:right;
+	width: 400px;
+	margin-right: 130px;
+	z-index: 10;
+	position: relative;
+	text-align: justify;
+}
+.content_right p:first-child {
+	color: yellow;
+	padding-top: 5px;
+	margin-bottom: 43px;
+	word-spacing: 3px;
+	font-size: 20px;	
+}
+.overflow{
+	height: 287px;
+	overflow: hidden;
+}
+.footer {
+	background-color: #24262a;
+	height: 120px;
+	text-align: center;
+}
+.footer p {
+   
+	font-size: 13px;
+	text-align: center;
+	word-spacing: 3px;
+}
+
