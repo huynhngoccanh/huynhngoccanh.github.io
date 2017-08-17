@@ -1,9 +1,9 @@
+/** phan chinhr khung trang */
 body {
 	position:relative;
     font-family: Verdane, Arial, Helvetica, sans-serif;
     font-size: 14px;
 	color: #cccccc;
-.bai2 {
 	width: 1263px;
 	margin: 0px auto;
 }
@@ -12,21 +12,24 @@ hr{
 	margin: 0px;
 	size: 1px;
 }
+/** Phan header*/
 .header {
 	height: 110px;
 	background-color: #2D2F35;
-	opacity:0.95;
+	opacity: 0.95;
 }
 .header img {
 	width: 248px;
 	height: 105px;
 	margin-left: 10px;
 }
+/** Phan duong ke ngang */
 .space{
 	background-color: #2D2F35;
 	height: 1px;
-	opacity:0.75;
+	opacity: 0.75;
 }
+/** Phan noi dung our product*/
 .our_product{
 	position: relative;
 	background: url(../img/bg_home_intro.gif) repeat-x;
@@ -37,7 +40,7 @@ hr{
 	width: 400px;
 	text-align: left;
 	height: 280px;
-  margin-left: 132px;
+	margin-left: 132px;
 }
 .our_product > img {
 	position: absolute;
@@ -53,25 +56,19 @@ hr{
 	letter-spacing: 1px;
 }
 .our_product_purport > p:last-child {line-height:14px;}
+/** Phan slide image*/
 .slide_image {
 	background-color: #2D2F35;
 	height: 145px;
 	position: relative;
 }
-/*
-.slide_image img {
-	margin-top: 28px;
-	margin-right: 15px;
-}
-.slide_image img:first-child {margin-left: 177px;} */
 .image {
 	width: 220px;
-	height:100px;
+	height: 100px;
 	float: left;
 	position:relative;
 	margin-top: 28px;
 	margin-right: 15px;
-	
 }
 .image:first-child {margin-left: 176px;}
 .image img:last-child {
@@ -79,30 +76,32 @@ hr{
 	top: 2px;
 	right: 2px;
 }
+/** phan content */
 .content_behind{
-	height:382px;
-	position:relative;
+	height: 382px;
+	position: relative;
 	background-color: #2D2F35;
 }
-.content_behind p{font-size:13px;}
+.content_behind p{font-size: 13px;}
 .content_behind img:first-child {
-	top:220px;
-	left:420px;
-	margin-right:200px;
+	top: 220px;
+	left: 420px;
+	margin-right: 200px;
 	position: absolute;
 }
 .marketing {
-	top:2px;
-	right:390px;
+	top: 2px;
+	right: 390px;
 	position: absolute;
 }
+/** Phan content left*/
 .content_left {
 	width: 400px;
 	margin-left: 130px;
 	z-index: 10;
 	position: relative;
 	text-align: justify;
-	float:left;
+	float: left;
 }
 .content_left p:first-child {
 	color: yellow;
@@ -112,8 +111,9 @@ hr{
 	word-spacing: 3px;	
 	overflow: auto;
 }
+/** phan content right */
 .content_right {
-	float:right;
+	float: right;
 	width: 400px;
 	margin-right: 140px;
 	z-index: 10;
@@ -131,15 +131,14 @@ hr{
 	height: 287px;
 	overflow: hidden;
 }
+/** phan footer */
 .footer {
 	background-color: #24262a;
 	height: 120px;
 	text-align: center;
 }
 .footer p {
-   
 	font-size: 13px;
 	text-align: center;
 	word-spacing: 3px;
 }
-
