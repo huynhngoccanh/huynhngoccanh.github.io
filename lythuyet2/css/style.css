@@ -39,6 +39,7 @@ hr{
 }
 .our_product > img {
 	position: absolute;
+	margin-right:144px;
 	right: 2px;
 }
 .our_product_purport > p:first-child {
@@ -85,8 +86,8 @@ hr{
 .content_behind img:first-child {
 	top:220px;
 	left:420px;
+	margin-right:200px;
 	position: absolute;
-
 }
 .marketing {
 	top:2px;
