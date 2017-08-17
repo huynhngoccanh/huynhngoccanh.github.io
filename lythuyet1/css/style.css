@@ -1,24 +1,25 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 auto;
-}
-p{margin: 0px;}
-.content{
     width: 500px;
     border: 1px solid #ececec;
-    margin: 0px auto;
 }
-.title {
+p{margin: 0px;}
+span {
+    color: blue;
+}
+/** Phan css khung trang */
+.content {
     margin-top: 5px;
     background-image: url('../img/title_background.gif');
     background-repeat: repeat-x;
 	margin-bottom: 5px;
 }
-.title > p > strong {
+.content > p > strong {
     margin-top: 4px;
     position: absolute;
 }
-/*phan Facts */
+/** phan info nguyen xuan nam */
 .content_info {height: 100px;}
 .content_img {
     height: 100px;
@@ -36,6 +37,7 @@ p{margin: 0px;}
     width: 396px;
     height: 100px;
 }
+/** phan Facts su kien noi bat */
 .content_history {margin-top: 30px;}
 .content_history > p {margin-left: 5px;}
 .list_history li p:before {
@@ -52,7 +54,7 @@ p{margin: 0px;}
     margin: 0px 5px;
     padding: 5px;
 }
-div.comment_detail:first-child {
+.comment_detail: first-child {
     margin-top: 45px;
 }
 .clear {
@@ -67,12 +69,10 @@ div.comment_detail:first-child {
     font-size: 13px;
 	padding-top: 1px;
 }
-span {
-    color: blue;
-}
+/** phan your comment */
 .your_comment{margin-top: 20px;}
 .your_comment > p:first-child{text-align: center;}
-.your_comment > strong { margin-left: 82px}
+.your_comment > strong {margin-left: 82px}
 .comment_field {
     width: 120px;
     text-align: left;
@@ -84,14 +84,14 @@ div.comment_input > input {
     width: 132px;
     height: 22px;
 }
-div.comment_field > p:first-child {
+div.comment_field > p: first-child {
     margin: 6px 0px 20px 0px;
 
 }
-div.comment_field > p:last-child {
+div.comment_field > p: last-child {
     margin-top: 40%;
 }
-div.comment_input > input:first-child {
+div.comment_input > input: first-child {
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -100,3 +100,4 @@ div.comment_input > textarea {
     width: 360px;
     height: 86px;
 }
+
