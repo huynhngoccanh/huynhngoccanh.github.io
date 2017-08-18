@@ -1,0 +1,215 @@
+/** phan khung trang*/
+body {
+	margin: 0px auto;
+	background-color: pink;
+	font-size: 14px;
+	color: #474747;
+}
+p {
+	margin: 0px;
+}
+.container {
+	width: 985px;
+	height: 800px;
+	background-color: #292728;
+	margin: 50px auto;
+}
+/** phan contain tren */
+.left-on {
+	margin-top: 23px;
+	margin-left: 2px;
+	width: 652px;
+	height: 303px;
+	background-color: white;
+	float: left;
+}
+/** phan header trai */
+.contain-left-header{
+	width: 327px;
+	border-right-style: solid ;
+	border-right-width: 1px;
+	background: url('../img/h2-confidential-heading-bg.gif');
+}
+.contain-left-header p {
+	margin-left: 16.5px;
+	color: white;
+	padding: 5px 0px 5px 0px;
+}
+/** phan noi dung tren ben trai*/
+.contain-left-on {
+	margin-top: 1px;
+	width: 327px;
+	height: 275px;
+	background-color: #ffffff;
+	border-right-style: dotted;
+	border-right-width: 1px;
+	float: left;
+	clear: both;
+}
+.title-left {
+	background: url('../img/showbuzz.gif') no-repeat;
+	width: 305px;
+	height: 18px;
+	margin-top: 5px;
+	margin-left: 7px;
+}
+.title-left p {
+	margin-top: -3px;
+	float: right;
+	margin-right: 20px;
+	font-size: 14px;
+}
+.content-text-left {
+	margin: 7px 0px 0px 10px;
+}
+.content-text-left p:first-child{
+	padding-bottom: 7px;
+}
+.p-text-left {
+	font-size: 11.5px;
+}
+.img-header {
+	width: 305px;
+	height: 151px;
+	margin: 7px 0px 0px 10px;
+}
+/** phan header tren ben phai */
+.contain-right-header{
+	width: 324px;
+	border-right-style: solid ;
+	border-right-width: 1px;
+	background: url('../img/h2-confidential-heading-bg.gif');
+}
+.contain-right-header p {
+	margin-left: 16.5px;
+	color: white;
+	padding: 5px 0px 5px 0px;
+}
+/** phan contain tren ben phai */
+.contain-right-on {
+	margin-right: 9px;
+	margin-top: 1px;
+	width: 312px;
+	height: 275px;
+	background-color: #ffffff;
+	float: left;
+}
+.title-right {
+	background: url('../img/shooting-star.gif') no-repeat;
+	width: 305px;
+	height: 18px;
+	margin-top: 5px;
+	margin-left: 7px;
+}
+.title-right p {
+	margin-top: -3px;
+	float: right;
+	margin-right: 20px;
+	font-size: 14px;
+}
+.content-text-right {
+	margin: 7px 0px 0px 10px;
+}
+.content-text-right p:first-child{
+	padding-bottom: 7px;
+}
+.p-text-right {
+	font-size: 11.5px;
+}
+/**phan anh confidential */
+.confidential {
+	width: 652px;
+	height: 27px;
+	clear: both;
+	background: white;
+}
+.confidential img {
+	margin: top 10px;
+	margin-left: 10px;
+}
+/** phan contain duoi*/
+.left-bottom {
+    margin-top: 23px;
+	margin-left: 2px;
+	width: 652px;
+	height: 303px;
+}
+/**phan content duoi ben trai */
+.contain-left-bottom {
+	width: 316px;
+	height: 210px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	background-color: white;
+}
+.contain-left-header-bottom{
+	width: 316px;
+	border-right-style: solid ;
+	border-right-width: 1px;
+	background: url('../img/h2-top-movie-trailers-bg.gif');
+}
+.contain-left-header-bottom p {
+	margin-left: 16.5px;
+	color: white;
+	padding: 6px 0px 6px 0px;
+}
+.movie {
+	background: url(../img/movie.gif);
+	padding: 4px 0px 0px 10px;
+	color: #2680bc;
+}
+.info-movie{height: 90px;}
+.info-movie img {
+	width: 100px;
+	height: 78px;
+	margin: 7px 7px;
+	float: left;
+}
+.info-movie p {
+	width: 187px;
+	margin: 3px 3px;
+	float: left;
+}
+/**phan con tent duoi ben phai */
+.contain-right-bottom {
+	width: 320px;
+	height: 351px;
+	margin-top: 10px;
+	margin-left: 14px;
+	float: left;
+	background-color: gray;
+}
+.contain-right-header-bottom{
+	width: 320px;
+	border-right-style: solid ;
+	border-right-width: 1px;
+	background: url('../img/h2-top-movie-trailers-bg.gif');
+}
+.contain-right-header-bottom p {
+	margin-left: 16.5px;
+	color: white;
+	padding: 5px 0px 6px 0px;
+}
+/** phan noi dung ben phai*/
+.right {
+	width: 315px;
+	height: 655px;
+	background-color: #292728;
+	float: right;
+}
+.right img {
+	margin: 33px 0px 0px 23px;
+}
+input {
+	width: 147px;
+	height: 20px;
+	margin: 11px 0px 0px 37px;
+}
+/** phan footer */
+.footer {
+	width: 985px;
+	height: 145px;
+	background-color: green;
+	clear: both;
+}
