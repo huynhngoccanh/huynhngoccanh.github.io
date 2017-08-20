@@ -1,0 +1,160 @@
+/** phan khung trang*/
+p {
+	margin: 0 auto;
+}
+span {
+	font-style: italic;
+}
+ul {
+	list-style: none;
+	padding: 0px;
+	line-height: 1.5;
+	background-color: #faf0bf;
+}
+ul li {
+	margin: 0 auto;
+	padding: 5px 0px;
+	border-top: 1px solid white;
+}
+a {
+	text-decoration: none;
+	color: #0a6395 ;
+}
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: auto;
+    background: #e6f3fb;
+    width: 300px;
+    height: 720px;
+    padding-left: 10px;
+}
+/**phan kblock 1 */
+.block-1 {
+	height: 205px;
+	background-color: #e6f3fb;
+}
+.title {
+	font-size: 12px;
+	padding-top: 6px;
+}
+.contain-1 {
+	height: 100px;
+	background-color: white;
+	border-top: 2px solid #ffa500;
+}
+.contain-1 img {
+	float: left;
+	width: 170px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.contain-right-on {
+	width: 100px;
+	float: left;
+	padding-left: 9px;
+}
+.contain-right-on p:first-child {
+	font-weight: bold;
+	color: #0a6394;
+	margin-top: 10px;
+}
+.contain-right-on p {
+	line-height: 15px;
+}
+.contain-right-bottom {
+    clear: both;
+}
+/** bblock 2 */
+.block-2 {
+	width: 300px
+	height: 326px;
+	clear: both;
+}
+.contain-left {
+	width: 100px;
+	height: 326px;
+}
+.contain-2 {
+	background-color: white;
+	border-top: 2px solid #ffa500;
+}
+.img2 {
+	float: left;
+	width: 100px;
+}
+.contain-right-on-2 {
+    height: 173px;
+}
+.contain-right-on-2 p:first-child {
+	float: left;
+	width: 190px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.contain-right-on-2 p:last-child {
+	float: left;
+	width: 185px;
+    margin-top: 10px;
+    font-size: 11px;
+    line-height: 1.5;
+    background-color: white;
+}
+.block-2-footer {
+	height: 45px;
+    background-color: #cccccc;
+}
+.text-2 {
+	margin-left: 20px;
+	width: 200px;
+	float: left;
+	font-size: 13px;
+	margin-top: 5px;
+}
+.text-2 p:last-child {color: #0a6394}
+.img3 {
+	float: right;
+	width: 70px;
+	height: 45px;
+}
+.link {text-decoration: underline;}
+/** block 3*/
+.block-3 {
+	width: 300px
+	height: 326px;
+	clear: both;
+}
+.contain-3 {
+	background-color: white;
+	border-top: 2px solid #ffa500;
+	margin-right: 13px;
+}
+.img4 {
+	width: 110px;
+	height: 110px;
+	float: right;
+}
+.contain-right-on-3 {
+	width: 130px;
+	height: 80px;
+	margin-top: 35px;
+	margin-left: 15px;
+}
+.contain-right-on-3 p:last-child{color:#0a6394}
+/** block 4*/
+.block-4 {
+	width: 280px
+	height: 71px;
+	clear: both;
+}
+.contain-right-on-4 {
+	padding-top: 10px;
+	padding-left: 7px;
+	width: 280px;
+	height: 61px;
+	border: 1px solid #dadada;
+	color:  #41b1dd;
+	background-color: white;
+	line-height: 1.2;
+}
