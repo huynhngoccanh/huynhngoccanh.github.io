@@ -5,15 +5,9 @@ body {
 	font-size: 14px;
 	color: #474747;
 }
-p {
-	margin: 0px;
-}
-a {
-	margin: 0px;
-}
-select {
-	margin: 0px;
-}
+p {margin: 0px;}
+a {margin: 0px;}
+select {margin: 0px;}
 input {
 	width: 147px;
 	height: 20px;
@@ -69,6 +63,7 @@ input {
 	float: right;
 	margin-right: 20px;
 	font-size: 14px;
+	font-weight: bold;
 }
 .content-text-left {
 	margin: 7px 0px 0px 10px;
@@ -113,10 +108,11 @@ input {
 	margin-left: 7px;
 }
 .title-right p {
-	margin-top: -3px;
+	margin-top: -1px;
 	float: right;
 	margin-right: 20px;
 	font-size: 14px;
+	font-weight: bold;
 }
 .content-text-right {
 	margin: 7px 0px 0px 10px;
@@ -150,7 +146,7 @@ input {
 	width: 316px;
 	height: 215px;
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 6px;
 	float: left;
 	background-color: white;
 }
@@ -185,11 +181,7 @@ input {
 	float: left;
 	overflow: hidden;
 }
-.info-movie p:last-child {
-	width: 162px;
-	background: url(../img/entertainment-icons.gif) 0px -92px no-repeat;
-	padding-left: 25px;
-}
+.info-movie p:last-child {width: 162px;}
 .movie-arrow { 
 	float: right;
 	width: 20px;
@@ -220,7 +212,7 @@ input {
 	float: right;
 	width: 180px;
 }
-/**phan con tent duoi ben phai */
+/**phan content duoi ben phai */
 .contain-right-bottom {
 	width: 320px;
 	height: 300px;
@@ -242,7 +234,7 @@ input {
 }
 .movie-right {
 	width: 170px;
-	padding: 8px 0px 0px 10px;
+	padding: 5px 0px 0px 7px;
 	color: #2680bc;
 	float: left;
 	font-size: 16px;
@@ -254,16 +246,23 @@ input {
 	margin: 7px 7px;
 }
 .info-movie-right p {
-	width: 187px;
+	width: 200px;
 	height: 65px;
-	margin: 3px 3px;
+	margin: 7px 3px;
 	float: right;
 	overflow: hidden;
 }
+.line {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted; 
+}
 .watch {
 	background: url(../img/entertainment-icons.gif) 0px -93px no-repeat;
-	padding-left: 25px;
+	padding-left: 20px;
+	padding-bottom: 3px;
 	margin-left: 7px;
+	font-weight: bold;
+	color: #2680bc;
 }
 .movie-arrow-right { 
 	float: right;
@@ -284,7 +283,6 @@ input {
 	width: 300px;
 	height: 25px;
 	margin-top: 4px;
-	margin-left: 9px;
 	border-top-style: dotted;
 	border-top-width: 1px;
 }
@@ -306,9 +304,7 @@ input {
 	background-color: #292728;
 	float: right;
 }
-.right img {
-	margin: 33px 0px 0px 23px;
-}
+.right img {margin: 33px 0px 0px 23px;}
 button {
 	width: 64px;
 	color: #ffffff;
@@ -334,12 +330,8 @@ button {
 	padding-top: 10px 40px 0px 40px;
 	clear: both;
 }
-.slide-img {
-	margin-right: 80px;
-}
-.footer a{
-	text-decoration:none;
-}
+.slide-img {margin-right: 80px;}
+.footer a{text-decoration: none;}
 .footer-content {
 	width: 985px;
 	float: left;
@@ -361,3 +353,5 @@ button {
 	background-color: white;
 	clear: both;
 }
+
+
