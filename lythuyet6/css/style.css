@@ -2,9 +2,6 @@
 p {
 	margin: 0 auto;
 }
-span {
-	font-style: italic;
-}
 ul {
 	list-style: none;
 	padding: 0px;
@@ -26,17 +23,23 @@ a {
     margin: auto;
     background: #e6f3fb;
     width: 300px;
-    height: 720px;
+    height: 680px;
     padding-left: 10px;
 }
 /**phan kblock 1 */
 .block-1 {
 	height: 205px;
 	background-color: #e6f3fb;
+	margin-right: 13px;
 }
 .title {
 	font-size: 12px;
 	padding-top: 6px;
+	font-weight: bold;
+}
+.span-bl1 {
+	font-weight: bold;
+	color: #1d9293;
 }
 .contain-1 {
 	height: 100px;
@@ -65,11 +68,16 @@ a {
 .contain-right-bottom {
     clear: both;
 }
+.p-bl1 {
+    border-bottom: 2px solid white;
+}
+.p3 {padding-left: 7px;}
 /** bblock 2 */
 .block-2 {
 	width: 300px
 	height: 326px;
 	clear: both;
+	margin-right:13px;
 }
 .contain-left {
 	width: 100px;
@@ -84,33 +92,33 @@ a {
 	width: 100px;
 }
 .contain-right-on-2 {
-    height: 173px;
+    height: 150px;
 }
 .contain-right-on-2 p:first-child {
 	float: left;
-	width: 190px;
+	width: 177px;
     font-weight: bold;
     margin-top: 20px;
     font-size: 12px;
 }
 .contain-right-on-2 p:last-child {
 	float: left;
-	width: 185px;
+	width: 172px;
     margin-top: 10px;
-    font-size: 11px;
-    line-height: 1.5;
+    font-size: 10.5px;
+    line-height: 1.3;
     background-color: white;
 }
 .block-2-footer {
 	height: 45px;
-    background-color: #cccccc;
+    background-color: #f4f3f3;
 }
 .text-2 {
 	margin-left: 20px;
-	width: 200px;
+	width: 187px;
 	float: left;
-	font-size: 13px;
-	margin-top: 5px;
+	font-size: 11px;
+	margin-top: 8px;
 }
 .text-2 p:last-child {color: #0a6394}
 .img3 {
@@ -119,8 +127,10 @@ a {
 	height: 45px;
 }
 .link {text-decoration: underline;}
+.date {color: #808080;}
 /** block 3*/
 .block-3 {
+	margin-top: 8px;
 	width: 300px
 	height: 326px;
 	clear: both;
@@ -137,16 +147,24 @@ a {
 }
 .contain-right-on-3 {
 	width: 130px;
-	height: 80px;
-	margin-top: 35px;
-	margin-left: 15px;
+	height: 90px;
+	margin-top: 18px;
+	margin-left: 20px;
+	font-size: 11.6px;
 }
-.contain-right-on-3 p:last-child{color:#0a6394}
+.contain-right-on-3 p:last-child{
+	color:#0a6394;
+	font-weight: bold;
+	margin-top: 7px;
+}
 /** block 4*/
 .block-4 {
 	width: 280px
 	height: 71px;
 	clear: both;
+	border-top: 1px solid #dadada;
+	margin-top: 8px;
+	margin-right: 13px;
 }
 .contain-right-on-4 {
 	padding-top: 10px;
