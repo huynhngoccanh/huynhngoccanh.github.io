@@ -5,15 +5,9 @@ body {
 	font-size: 14px;
 	color: #474747;
 }
-p {
-	margin: 0px;
-}
-a {
-	margin: 0px;
-}
-select {
-	margin: 0px;
-}
+p {margin: 0px;}
+a {margin: 0px;}
+select {margin: 0px;}
 input {
 	width: 147px;
 	height: 20px;
@@ -218,7 +212,7 @@ input {
 	float: right;
 	width: 180px;
 }
-/**phan con tent duoi ben phai */
+/**phan content duoi ben phai */
 .contain-right-bottom {
 	width: 320px;
 	height: 300px;
@@ -310,9 +304,7 @@ input {
 	background-color: #292728;
 	float: right;
 }
-.right img {
-	margin: 33px 0px 0px 23px;
-}
+.right img {margin: 33px 0px 0px 23px;}
 button {
 	width: 64px;
 	color: #ffffff;
@@ -338,12 +330,8 @@ button {
 	padding-top: 10px 40px 0px 40px;
 	clear: both;
 }
-.slide-img {
-	margin-right: 80px;
-}
-.footer a{
-	text-decoration:none;
-}
+.slide-img {margin-right: 80px;}
+.footer a{text-decoration: none;}
 .footer-content {
 	width: 985px;
 	float: left;
