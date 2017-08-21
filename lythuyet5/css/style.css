@@ -69,6 +69,7 @@ input {
 	float: right;
 	margin-right: 20px;
 	font-size: 14px;
+	font-weight: bold;
 }
 .content-text-left {
 	margin: 7px 0px 0px 10px;
@@ -113,10 +114,11 @@ input {
 	margin-left: 7px;
 }
 .title-right p {
-	margin-top: -3px;
+	margin-top: -1px;
 	float: right;
 	margin-right: 20px;
 	font-size: 14px;
+	font-weight: bold;
 }
 .content-text-right {
 	margin: 7px 0px 0px 10px;
@@ -150,7 +152,7 @@ input {
 	width: 316px;
 	height: 215px;
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 6px;
 	float: left;
 	background-color: white;
 }
@@ -185,11 +187,7 @@ input {
 	float: left;
 	overflow: hidden;
 }
-.info-movie p:last-child {
-	width: 162px;
-	background: url(../img/entertainment-icons.gif) 0px -92px no-repeat;
-	padding-left: 25px;
-}
+.info-movie p:last-child {width: 162px;}
 .movie-arrow { 
 	float: right;
 	width: 20px;
@@ -242,7 +240,7 @@ input {
 }
 .movie-right {
 	width: 170px;
-	padding: 8px 0px 0px 10px;
+	padding: 5px 0px 0px 7px;
 	color: #2680bc;
 	float: left;
 	font-size: 16px;
@@ -254,16 +252,23 @@ input {
 	margin: 7px 7px;
 }
 .info-movie-right p {
-	width: 187px;
+	width: 200px;
 	height: 65px;
-	margin: 3px 3px;
+	margin: 7px 3px;
 	float: right;
 	overflow: hidden;
 }
+.line {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted; 
+}
 .watch {
 	background: url(../img/entertainment-icons.gif) 0px -93px no-repeat;
-	padding-left: 25px;
+	padding-left: 20px;
+	padding-bottom: 3px;
 	margin-left: 7px;
+	font-weight: bold;
+	color: #2680bc;
 }
 .movie-arrow-right { 
 	float: right;
@@ -273,7 +278,7 @@ input {
 .arrow-right {
 	width: 116px;
 	height: 10px;
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 0px 47px;
 	background: url(../img/topic-star-ratings.gif) 0px -70px no-repeat;
 }
 .arrow-2{
@@ -284,7 +289,6 @@ input {
 	width: 300px;
 	height: 25px;
 	margin-top: 4px;
-	margin-left: 9px;
 	border-top-style: dotted;
 	border-top-width: 1px;
 }
@@ -361,3 +365,5 @@ button {
 	background-color: white;
 	clear: both;
 }
+
+
