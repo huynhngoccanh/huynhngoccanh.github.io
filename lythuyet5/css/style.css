@@ -194,6 +194,12 @@ input {
     margin: 6px 0px 0px 5px;
 	background: url(../img/arrow.gif) no-repeat;
 }
+.arrow1 {
+	width: 10px;
+	height: 10px;
+    margin: 6px 0px 0px 5px;
+	background: url(../img/arrow.gif) 0px -20px no-repeat;
+}
 .showing {
 	clear: both;
 	width: 310px;
@@ -210,7 +216,7 @@ input {
 }
 .showing select {
 	float: right;
-	width: 180px;
+	width: 186px;
 }
 /**phan content duoi ben phai */
 .contain-right-bottom {
@@ -318,7 +324,7 @@ button {
 	background-color: #292728;
 	border-top-style: dotted;
 	border-top-color: white;
-	border-bottom-width: 1px;
+	border-top-width: 1px;
 	color: blue;
 	text-align: center;
 	font-size: 12px;
@@ -327,11 +333,17 @@ button {
 .slide 
 {
 	width: 985px;
-	padding-top: 10px 40px 0px 40px;
 	clear: both;
+	text-align: left;
 }
-.slide-img {margin-right: 80px;}
+.slide-img {margin-right: 0px;}
+.margin-left-41{margin-left: 41px;}
+.margin-left-95{margin-left: 95px;}
+.margin-left-120{margin-left: 120px;}
+.margin-left-88{margin-left: 88px;}
+.margin-left-90{margin-left: 60px;}
 .footer a{text-decoration: none;}
+
 .footer-content {
 	width: 985px;
 	float: left;
