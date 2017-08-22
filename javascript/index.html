@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="createAnh();">
+	<div class="container">
+			<div class="slider">
+			    <button onclick="previous();">Prev</button>
+				<img id="slide-img" src="img/image_1.jpg" />
+				<button onclick="next();">Next</button>
+			</div><!-- end #slider -->
+	</div><!-- end #main -->
+</body>
+</html>
+<script type="text/javascript">
+    var anh= [];
+    var img_number = 0;
+    function createAnh() {
+        for(var i=0; i<4; i++)
+        {
+        	anh[i]= new Image();
+        	anh[i].src="img"+"/"+"image_"+i+".jpg";
+        }
+    }
+    function next() {
+
+    	if (img_number==3)
+    	{
+            img_number=-1;
+    	}
+    	if (img_number<3)
+    	{
+    		img_number++;
+    		document.getElementById('slide-img').src=anh[img_number].src;
+    		console.log('anh',img_number);
+    	}
+    }
+    function previous() {
+    	if (img_number==0)
+    	{
+    		img_number=4;
+    	}
+    	if (img_number>0)
+    	{
+    		img_number--;
+    		document.getElementById('slide-img').src=anh[img_number].src;
+    	}
+    }
+</script>
