@@ -27,16 +27,16 @@ p{margin: 0px;}
 .content_img > img {
     width: 100px;
     height: 90px;
-    margin-top: 27px;
+    margin-top: 3px;
 }
 .content_txt {
-    margin: 20px 2px 0 0;
+    margin-right: 2px;
     float: left;
     overflow: scroll;
     width: 396px;
     height: 106px;
 }
-.content_history {margin-top: 50px;}
+.content_history {margin-top: 20px;}
 .content_history > p {margin-left: 5px;}
 .list_history li p:before {
     content: url('../img/star.gif');
@@ -97,6 +97,8 @@ div.comment_input > input:first-child {
 div.comment_input > textarea {
     margin-top: 15px;
     width: 360px;
-    height: 86px;
+    height: 85px;
 }
+
+
 
