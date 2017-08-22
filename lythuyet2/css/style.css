@@ -84,14 +84,14 @@ hr{
 }
 .content_behind p{font-size: 13px;}
 .content_behind img:first-child {
-	top: 220px;
-	left: 420px;
+	top: 205px;
+	left: 375px;
 	margin-right: 200px;
 	position: absolute;
 }
 .marketing {
-	top: 2px;
-	right: 390px;
+	top: 8px;
+	right: 385px;
 	position: absolute;
 }
 /** Phan content left*/
@@ -123,9 +123,9 @@ hr{
 .content_right p:first-child {
 	color: yellow;
 	padding-top: 5px;
-	margin-bottom: 36px;
+	margin-bottom: 33px;
 	word-spacing: 3px;
-	font-size: 23px;	
+	font-size: 22px;	
 }
 .overflow{
 	height: 287px;
@@ -142,3 +142,4 @@ hr{
 	text-align: center;
 	word-spacing: 3px;
 }
+
