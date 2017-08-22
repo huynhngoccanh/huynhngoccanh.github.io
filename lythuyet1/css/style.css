@@ -10,9 +10,9 @@ p{margin: 0px;}
 }
 .title {
     margin-top: 5px;
+    margin-bottom: 5px;
     background-image: url('../img/title_background.gif');
     background-repeat: repeat-x;
-	margin-bottom: 5px;
 }
 .title > p > strong {
     margin-top: 4px;
@@ -27,24 +27,27 @@ p{margin: 0px;}
 .content_img > img {
     width: 100px;
     height: 90px;
-    margin-top: 27px;
+    margin-top: 3px;
 }
 .content_txt {
-    margin: 20px 2px 0 0;
+    margin-right: 2px;
     float: left;
     overflow: scroll;
     width: 396px;
-    height: 96px;
+    height: 106px;
 }
-.content_history {margin-top: 50px;}
+.content_history {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
 .content_history > p {margin-left: 5px;}
 .list_history li p:before {
     content: url('../img/star.gif');
     padding-right: 8px;
 }
 .list_history li {
-	list-style-type: none;
-	margin-right: 10px;
+    list-style-type: none;
+    margin-right: 10px;
 }
 /*phan comment*/
 .comment_detail {
@@ -59,13 +62,13 @@ div.comment_detail:first-child {
     clear: both;
 }
 .post_by > img {
+    height: 16px;
     margin: 0px 15px 0px 24px;
     float: left;
-	height: 16px;
 }
 .post_by > p {
+    padding-top: 1px;
     font-size: 13px;
-	padding-top: 1px;
 }
 span {
     color: blue;
@@ -86,7 +89,6 @@ div.comment_input > input {
 }
 div.comment_field > p:first-child {
     margin: 6px 0px 20px 0px;
-
 }
 div.comment_field > p:last-child {
     margin-top: 40%;
@@ -98,5 +100,8 @@ div.comment_input > input:first-child {
 div.comment_input > textarea {
     margin-top: 15px;
     width: 360px;
-    height: 86px;
+    height: 85px;
 }
+
+
+
