@@ -1,13 +1,12 @@
 /** Phan chinh khung trang*/
-body {
-    margin: 0px auto;
-}
+body {margin: 0px auto;}
 p {margin: 0px};
 .margin-15 {
 	margin-left: 15px;
 }
+u {margin-top: 1px;}
 .p-line-height{
-	line-height: 9px;
+	line-height: 13px;
 	margin-top: 10px;
 }
 .margin-top-6{margin-top: 6px}
@@ -15,7 +14,7 @@ p {margin: 0px};
 .content {
 	margin: 0 auto;
 	width: 1031px;
-	height: 585px;
+	height: 605px;
 	background-color: #121214;
 	font-family: arial;
 	font-size: 0.6875em;
@@ -59,7 +58,8 @@ p {margin: 0px};
 	margin-top: 15px;
 }
 .content-left-info p:before {
-	content: url(../img/arr_1.gif)
+	content: url(../img/arr_1.gif);
+	padding-right: 5px;
 }
 /** phan noi dung ul */
 .content-left-detail {
@@ -85,7 +85,7 @@ p {margin: 0px};
 	padding-bottom: 15px;
 }
 .menu li:before {
-	content: url(../img/arr.gif);
+	content: url(../img/arr.gif) 0px -3px;
 	margin-right: 7px;
 }
 .menu {padding: 0px}
@@ -101,6 +101,10 @@ p {margin: 0px};
 	text-decoration: none;
 	color: #595959;
 }
+.moreinfo {
+	clear: both;
+	height: 70px;
+}
 /** phan content right */
 .detail-below-right {
 	width: 192px;
@@ -108,7 +112,6 @@ p {margin: 0px};
 	font-size: 9.4px;
 	word-spacing: 0.5px;
 }
-
 .content-right {
 	float: left;
 	width: 533px;
@@ -117,20 +120,18 @@ p {margin: 0px};
 .info-right {
 	background-color: #232226;
 	width: 240px;
-	height: 385px;
+	height: 392px;
 	margin-top: 20px;
-	
 }
 .infomation-on {
 	width: 192px;
 	height: 72px;
 	margin-left: 22px;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
+	border-bottom: 2px solid #353439;
 }
 .infomation-below {
 	margin-left: 32px;
-	margin-top: 27px;
+	margin-top: 30px;
 }
 .infomation-below img {
 	width: 175px;
@@ -140,9 +141,10 @@ p {margin: 0px};
 }
 /**  phan footer*/
 .content-right-footer {
-	margin: 55px 0px 0px 32px;
+	margin: 58px 0px 0px 32px;
 }
 .content-right-footer p:before {
-	content: url(../img/arr_1.gif)
+	content: url(../img/arr_1.gif);
+	padding-right: 5px;
 }
 
