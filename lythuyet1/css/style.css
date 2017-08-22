@@ -36,7 +36,10 @@ p{margin: 0px;}
     width: 396px;
     height: 106px;
 }
-.content_history {margin-top: 20px;}
+.content_history {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
 .content_history > p {margin-left: 5px;}
 .list_history li p:before {
     content: url('../img/star.gif');
