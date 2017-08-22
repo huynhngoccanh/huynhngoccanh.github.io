@@ -1,0 +1,20 @@
+body { margin: 0 auto; }
+h1 {
+	text-align: center;
+	color: blue;
+}
+.container {
+	width: 1265px;
+	margin: 0 auto;
+	height: 1000px;
+	background-color: #cccccc;
+}
+.slider {
+	width: 800px;
+	height: 190px;
+	background-color: pink;
+	margin: 90px auto;
+}
+.slide-img {
+  margin-left: 250px;
+}
