@@ -1,25 +1,24 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 auto;
-    width: 500px;
-    border: 1px solid #ececec;
 }
 p{margin: 0px;}
-span {
-    color: blue;
+.content{
+    width: 500px;
+    border: 1px solid #ececec;
+    margin: 0px auto;
 }
-/** Phan css khung trang */
-.content {
+.title {
     margin-top: 5px;
     background-image: url('../img/title_background.gif');
     background-repeat: repeat-x;
 	margin-bottom: 5px;
 }
-.content > p > strong {
+.title > p > strong {
     margin-top: 4px;
     position: absolute;
 }
-/** phan info nguyen xuan nam */
+/*phan Facts */
 .content_info {height: 100px;}
 .content_img {
     height: 100px;
@@ -28,17 +27,16 @@ span {
 .content_img > img {
     width: 100px;
     height: 90px;
-    margin-top: 25px;
+    margin-top: 27px;
 }
 .content_txt {
     margin: 20px 2px 0 0;
     float: left;
     overflow: scroll;
     width: 396px;
-    height: 100px;
+    height: 96px;
 }
-/** phan Facts su kien noi bat */
-.content_history {margin-top: 30px;}
+.content_history {margin-top: 50px;}
 .content_history > p {margin-left: 5px;}
 .list_history li p:before {
     content: url('../img/star.gif');
@@ -54,7 +52,7 @@ span {
     margin: 0px 5px;
     padding: 5px;
 }
-.comment_detail: first-child {
+div.comment_detail:first-child {
     margin-top: 45px;
 }
 .clear {
@@ -69,10 +67,12 @@ span {
     font-size: 13px;
 	padding-top: 1px;
 }
-/** phan your comment */
+span {
+    color: blue;
+}
 .your_comment{margin-top: 20px;}
 .your_comment > p:first-child{text-align: center;}
-.your_comment > strong {margin-left: 82px}
+.your_comment > strong { margin-left: 82px}
 .comment_field {
     width: 120px;
     text-align: left;
@@ -84,14 +84,14 @@ div.comment_input > input {
     width: 132px;
     height: 22px;
 }
-div.comment_field > p: first-child {
+div.comment_field > p:first-child {
     margin: 6px 0px 20px 0px;
 
 }
-div.comment_field > p: last-child {
+div.comment_field > p:last-child {
     margin-top: 40%;
 }
-div.comment_input > input: first-child {
+div.comment_input > input:first-child {
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -100,4 +100,3 @@ div.comment_input > textarea {
     width: 360px;
     height: 86px;
 }
-
