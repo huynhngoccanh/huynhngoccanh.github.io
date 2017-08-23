@@ -1,20 +1,57 @@
-body { margin: 0 auto; }
+/*phần khung trang*/
+body { margin: 0 auto;}
 h1 {
 	text-align: center;
 	color: blue;
 }
-.container {
-	width: 1265px;
+/*phần nội dung*/
+.contain {
 	margin: 0 auto;
-	height: 1000px;
-	background-color: #cccccc;
+	background-color: gray;
 }
+/*phần slider ảnh*/
 .slider {
-	width: 800px;
-	height: 190px;
-	background-color: pink;
-	margin: 90px auto;
+	width: 900px;
+	height: 500px;
+	background-color: black;
+	margin: 50px auto;
+	position: relative;
 }
-.slide-img {
-  margin-left: 250px;
+#slide-img {
+    margin: 60px 0 0 80px;
+    width: 750px;
+    height: 340px;
+    position: absolute;
+}
+.arrow-left {
+	width: 43px;
+	height: 46px;
+    position: absolute;
+    margin: 220px 0 0 20px;
+    z-index: 2;
+}
+.arrow-right {
+	width: 43px;
+	height: 46px;
+    position: absolute;
+    right: 15px;
+    top: 220px;
+}
+/*phần chứa ảnh mini*/
+#index {
+	width: 500px;
+	height: 80px;
+	top: 400px;
+	left: 200px;
+	position: relative;
+}
+#slide-img-in {
+	width: 100px;
+	height: 50px;
+	margin: 20px 12px;
+	float: left;
+	opacity: 0.5;
+}
+#slide-img-in:first-child {
+	opacity: 1;
 }
