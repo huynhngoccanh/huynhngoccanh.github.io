@@ -1,70 +1,69 @@
 
-    //create array 
+    // create array 
     var image = [];
-    var img_number = 0;
+    var NUMBER = 0;
     /**
     * create image
     */
-    function createImage() 
-    {
-        for(var i = 0; i < 4; i++)
-        {
+    function createImage() {
+        for(var i = 0; i < 4; i++) {
             image[i] = new Image();
             image[i].src = "img" + "/" + "images_" + i + ".jpg";
         }
     }
     /**
-    *function move image after 5s
+    * move image after 5s
+    * @param {function} next 
+    * @param {number} time
     */
     setInterval(next, 5000);
     /**
-    *function move image when click next
+    * move image when click next
     */
-    function next() 
-    {
-        if (img_number == 3) {
-            img_number =- 1;
+    function next() {
+        if (NUMBER == 3) {
+            NUMBER =- 1;
         }
-        if (img_number < 3) {
-            img_number++;
-            document.getElementById('slide-img').src = image[img_number].src;
-        }
-        imgActive();
-    }
-    /**
-    *function move image when click previous
-    */
-    function previous() 
-    {
-        if (img_number == 0) {
-            img_number = 4;
-        }
-        if (img_number > 0) {
-            img_number--;
-            document.getElementById('slide-img').src = image[img_number].src;
+        if (NUMBER < 3) {
+            NUMBER++;
+            document.getElementById('slide-img').src = image[NUMBER].src;
         }
         imgActive();
     }
     /**
-    *function move image when click image
+    * move image when click previous
     */
-    function changeImg(number, img) 
-    {
-        img_number = number;
-        document.getElementById('slide-img').src = img.src;
+    function previous() {
+        if (NUMBER == 0) {
+            NUMBER = 4;
+        }
+        if (NUMBER > 0) {
+            NUMBER--;
+            document.getElementById('slide-img').src = image[NUMBER].src;
+        }
         imgActive();
     }
     /**
-    *function create animation when image active
+    * move image when click image
+    *@param {number} number image
+    *@param {object} this image
     */
-    function imgActive() 
-    {
-        get_all_img = document.getElementById('index');
-        // setAttribute opacity 0.5
-        get_img = get_all_img.getElementsByTagName('img');
-        for (var i = 0; i < get_img.length; i++) {
-            get_img[i].style.opacity = "0.5";
+    function changeImg(number, thisImage) {
+        NUMBER = number;
+        document.getElementById('slide-img').src = thisImage.src;
+        imgActive();
+    }
+    /**
+    * create animation when image active
+    */
+    function imgActive() {
+        Element = document.getElementById('index');
+        // setAttribute opacity 0.5 for all image in div
+        ImageName = Element.getElementsByTagName('img');
+        for (var i = 0; i < ImageName.length; i++) {
+            ImageName[i].style.opacity = "0.5";
         }
         // setAttribute for image active
-        active = get_all_img.getElementsByTagName('img').item(img_number).setAttribute("style", "opacity: 1;");
+        active = Element.getElementsByTagName('img')
+        .item(NUMBER).setAttribute("style", "opacity: 1;");
     }
