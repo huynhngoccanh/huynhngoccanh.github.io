@@ -1,0 +1,64 @@
+/*container*/
+body {
+    margin: 0 auto;
+    background-color: black;
+}
+h1 {
+	text-align: center;
+	color: black;
+}
+input {
+	text-align: center;
+	border: 2px solid gray;
+	width: 187px;
+	margin-left: 7px;
+}
+#contain {
+	margin: 0 auto;
+	text-align: center;
+}
+#calendar {
+	width: 455px;
+	height: 300px;
+	top:78px;
+	left: 459px;
+	text-align: center;
+	position: absolute;
+	background-color: gray;
+	display: block;
+	z-index: -1;
+}
+#choseDate {
+	width: 455px;
+	height: 30px;
+	background-color: gray;
+	margin-top: 27px;
+}
+#date {
+	width: 455px;
+	height: 30px;
+	background-color: gray;
+}
+#listDate {
+	width: 455px;
+	height: 220px;
+	background-color: gray;
+}
+#button1,
+#button2,
+#button3,
+#button4,
+#button5,
+#button6,
+#button7 {
+	width: 60px;
+	height: 26px;
+	margin: 2px 2px;
+	border: 1px solid white;
+}
+#button3 {
+    width: 124px;
+}
+#button7 {
+	background-color: pink;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Slider</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="createImage()">
+    <!-- contain -->
+    <div class="contain">
+        <h1>SLIDER</h1>
+        <div class="slider">
+            <img class="arrow-left" onclick="previous()" src="img/arrow.png" alt="arrow">
+            <img id="slide-img" src="img/images_0.jpg" />
+            <img class="arrow-right" onclick="next()" src="img/arrow-right.png" alt="arrow">
+            <!-- image mini -->
+            <div id="index" onload="imgActive()">
+                <img id="slide-img-in" onclick="changeImg(0, this)" src="img/images_0.jpg" />
+                <img id="slide-img-in" onclick="changeImg(1, this)" src="img/images_1.jpg" />
+                <img id="slide-img-in" onclick="changeImg(2, this)" src="img/images_2.jpg" />
+                <img id="slide-img-in" onclick="changeImg(3, this)" src="img/images_3.jpg" />
+            </div><!-- end image mini -->
+        </div><!-- end slider -->
+    </div><!-- end #contain -->
+<script type="text/javascript" src= "js/script.js" ></script>
+</body>
+</html>
+
