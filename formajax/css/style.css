@@ -1,0 +1,102 @@
+/* container */
+body {
+    margin: 0 auto;
+}
+table {
+	clear: both;
+}
+/* input form */
+.err_message {
+	width: 200px;
+	color: orange;
+}
+.input_form {
+	width: 400px;
+	height: 20px;
+	border-radius: 3px;
+	background-color: white;
+
+}
+.label_form {
+	width: 150px;
+	text-align: center;
+	color: green;
+}
+#contain {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+.valid {
+    color: green;
+}
+/* calendar */
+#calendar {
+	width: 455px;
+	height: 240px;
+	margin: 0 0 0 140px;
+	text-align: center;
+	position: relative;
+	background-color: gray;
+	display: block;
+}
+#choseDate {
+	width: 455px;
+	height: 30px;
+	background-color: gray;
+	margin-top: 27px;
+}
+#date {
+	width: 455px;
+	height: 30px;
+	background-color: gray;
+}
+#listDate {
+	width: 455px;
+	height: 180px;
+	background-color: gray;
+}
+#button1,
+#button2,
+#button3,
+#button4,
+#button5,
+#button6,
+#button7,
+#button8 {
+	width: 60px;
+	height: 26px;
+	margin: 2px 2px;
+	border: 1px solid white;
+}
+#button3 {
+    width: 124px;
+}
+#button7 {
+	background-color: green;
+}
+/* button send data */
+.btn_sm {
+	margin: 20px 80px 0 205px;
+	background-color: green;
+	border-radius: 2px;
+	border: 2px solid green;
+	width: 120px;
+	color: white;
+}
+.btn_fresh {
+    background-color: gray;
+    border: 2px solid gray;
+    margin: 0 0;
+}
+.block_button {
+	float: left;
+}
+/* notification */
+#block1 {
+	color: green;
+	clear: both;
+	text-align: left;
+	margin: 0 140px;
+}
+
